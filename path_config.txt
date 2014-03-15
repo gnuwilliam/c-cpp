@@ -1,0 +1,22 @@
+Some Eclipse project configuration
+
+Environment
+  CPATH
+    ${HOME}/hpc-gcc/include
+
+  LIBRARY_PATH
+    ${HOME}/hpc-gcc/lib
+
+  PATH
+    ${HOME}/hpc-gcc/bin
+
+
+Settings
+  COMPILER OPTIONS
+    C
+      MISCELLANEOUS
+        -std=gnu11
+
+    C++
+      MISCELLANEOUS
+        -std=c++11
